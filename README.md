@@ -5,5 +5,7 @@ Very interesting game made with jQuery. The results are saved in LocalStorage fo
 Technologies and Frameworks:
 HTML,
 CSS,
-jQuery
+jQuery 
+
+It is not responsive.
 
