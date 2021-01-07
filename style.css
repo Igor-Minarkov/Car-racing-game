@@ -3,26 +3,22 @@
   background-color: #242021;
   overflow: hidden;
 }
-
 h1,
 h2,
 h3 {
   color: #a2a2a2;
 }
-
-h3 {
-  font-size: 25px;
-  margin: 0 !important;
-  margin-top: 30px;
+h1 {
+  font-size: 50px;
 }
-
 h2 {
   font-size: 35px;
   margin-top: 50px;
 }
-
-h1 {
-  font-size: 50px;
+h3 {
+  font-size: 25px;
+  margin: 0 !important;
+  margin-top: 30px;
 }
 table {
   border-collapse: initial;
@@ -30,7 +26,6 @@ table {
 button {
   outline: none;
 }
-
 #count_num {
   font-size: 120px;
   color: white;
@@ -63,7 +58,6 @@ button {
   width: 250px;
   left: 10px;
 }
-
 .car-1 {
   top: 100px;
 }
@@ -115,7 +109,6 @@ button {
 #secondTable td {
   font-size: 15px;
 }
-
 #thirdTable td,
 #fourthTable td {
   width: 700px;
@@ -128,13 +121,11 @@ button {
   align-items: center;
 }
 .race-heading h2 {
-  /* text-align: center; */
   width: 50%;
 }
 .race-heading h3 {
   width: 50%;
 }
-
 .car-color-wrapper {
   width: 50%;
   display: flex;

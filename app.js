@@ -57,10 +57,10 @@ $(".start-button").click(function () {
               checkIfComplete();
               $("#firstTable").prepend(
                 `<tr><td>Finished in 
-      <span style="color:white; font-weight:bold">${place}</span>
-      place and clocked in at
-      <span style="color:white; font-weight:bold">${raceTime1}</span>
-      miliseconds!</td></tr>`
+                <span style="color:white; font-weight:bold">${place}</span>
+                place and clocked in at
+                <span style="color:white; font-weight:bold">${raceTime1}</span>
+                miliseconds!</td></tr>`
               );
               localStorage.setItem("placeCar1", place);
             }
@@ -76,10 +76,10 @@ $(".start-button").click(function () {
               checkIfComplete();
               $("#secondTable").prepend(
                 `<tr><td>Finished in 
-      <span style="color: #ba0000; font-weight:bold">${place}</span>
-      place and clocked in at
-      <span style="color:#ba0000; font-weight:bold">${raceTime2}</span>
-      miliseconds!</td></tr>`
+                <span style="color: #ba0000; font-weight:bold">${place}</span>
+                place and clocked in at
+                <span style="color:#ba0000; font-weight:bold">${raceTime2}</span>
+                miliseconds!</td></tr>`
               );
               localStorage.setItem("placeCar2", place);
             }
